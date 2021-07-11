@@ -4,9 +4,16 @@ public class Main {
 
     public static void main(String[] args){
 
-        // TODO: Declare and initialize a CD and a DVD object.
+        CD aCD = new CD("Music CD","Best POP Musics of 2021");
+        DVD aDVD = new DVD("Movie DVD", "Best DVD of 2021");
 
-        // TODO: Call each CD and DVD method to verify that they work as expected.
-
+        aCD.readByLaser();
+        aCD.writeByLaser();
+        aCD.spinDisc();
+        aCD.storeData();
+        aDVD.readByLaser();
+        aDVD.writeByLaser();
+        aDVD.spinDisc();
+        aDVD.storeData();
     }
 }
